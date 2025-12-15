@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Movie Search</title>
+</head>
+<body>
+    <header>
+        <menu id="menu">
+            <i class="fa-solid fa-video"></i>
+            <h1 id="titleMenu1">Movie</h1>
+            <h1 id="titleMenu2">.com</h1>
+        </menu>
+
+        <div id="divSearch">
+            <!-- <h2 id="titleSearchArea">Search Movie:</h2> -->
+
+            <div class="container-search">
+    
+                <div class="inputArea">
+                    <input type="search" placeholder="Search movies and series" id="input"></input>
+                    <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                </div>
+                
+                <div class="container-search-list hide-search-list">
+    
+                        <!-- <div class="search-item">
+                        <img src="src/img/spiderman photo.jpg" alt="" class="img-search-item">
+                        <p class="title-search-item">Guardians of the Galaxy Vol. 2</p>
+                        <p class="year-search-item">2017</p>
+                        </div> -->
+    
+    
+                </div>
+                
+              
+            </div>
+
+         </div>
+    </header>
+<main class="Main">
+    
+        <!-- <section class="searchContainer">
+    
+    
+    
+        </section> -->
+        
+        <div class="msgInitial">
+    
+           <div class="iconeFilmInitial">
+    
+            <i class="fa-solid fa-film">
+    
+            </i></div>
+            <h2 class="titleMsgInitial">
+                Search for a movie or series
+            </h2>
+    
+            <p class="textMsgInitial">
+                Use the search bar to find information about <br> your favorite movies and series
+            </p>
+    
+        </div>
+    
+        <section class="movieArea">
+    
+    
+    
+            <div class="containerMovie">
+                <div class="divImgMovie">
+                    <img src="" alt="poster film" id="img">
+                </div>
+    
+                <div class="descriptionMovie">
+    
+                    <div class="titleFilm">
+                        <h3 id="title"><!-- Spider-Man --></h3>
+                    </div>
+    
+                    <div id="textDescription">
+    
+                        <div class="divYear">
+                            <p id="year">Year: <p id="textYear"><!-- 2002 --></p></p>
+    
+                            <p id="ratings">Ratings: PG-13</p>
+    
+                        </div>
+    
+                        <div class="divGenre">
+                            <p id="genre">Genre: </p>
+                            <p id="textGenre"> <!-- Action, Adventure, Sci-Fi --></p>
+                        </div>
+    
+                        <div class="divWriter">
+                            <p id="writer">Writer: </p>
+                            <p id="writerText"> <!-- Stan Lee, Steve Ditko, David Koepp --></p>
+                        </div>
+    
+                        <div class="divActors">
+                            <p id="actors">Actors: </p>
+                            <p id="actorText"><!-- Tobey Maguire, Kirsten Dunst, Willem Dafoe --></p>
+                        </div>
+    
+                        <div class="divPlot">
+    
+                            <p id="plot">Plot: </p>
+                            <p id="plotText"> <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim expedita ipsam voluptates commodi aspernatur ex odio nesciunt quam. Debitis reprehenderit voluptates. --></p>
+                        </div>
+    
+                        <div class="languageText">
+                            <p id="language">Language: </p>
+                            <p id="languageText"><!-- English --></p>
+                        </div>
+    
+                        <div class="divNominated">
+                            <i class="fas fa-award"></i>
+                            <p id="textNominated"><!-- Nominated for Oscars. 16 wins & 63 nominations total. --></p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+        </section>
+    
+        <div class="divLoader">
+
+                <img src="src/img/img error pag.svg" alt="" class="imgErrorPag">
+              
+
+                <span class="msgError"></span>
+            <!-- <div class="searchLoader"></div> -->
+
+            <svg class="loader" viewBox="0 0 50 50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="4"/>
+            </svg>
+    
+        </div>
+</main>
+</body>
+<script src="script-teste.js"></script>
+</html>
