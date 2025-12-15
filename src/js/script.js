@@ -348,7 +348,7 @@ function validarInput() {
 // requisição img de filmes:
 async function requestApiSearch(input) {
     try {
-        const response2 = await fetch(`http://www.omdbapi.com/?apikey=bb2ebd7c&s=${input}`);
+        const response2 = await fetch(`https://www.omdbapi.com/?apikey=bb2ebd7c&s=${input}`);
     
         if (!response2.ok) {
             throw new Error("erro na requisição de Search");
@@ -372,7 +372,7 @@ async function requestApiSearch(input) {
 async function requestApiInfo(input){
     try {
     
-    const response = await fetch(`http://omdbapi.com/?apikey=bb2ebd7c&t=${input}`);
+    const response = await fetch(`https://omdbapi.com/?apikey=bb2ebd7c&t=${input}`);
     if (!response.ok) {
         throw new Error("erro na response");
     }
